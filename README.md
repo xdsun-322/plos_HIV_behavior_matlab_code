@@ -1,17 +1,14 @@
-######The manual of calculating travel fluxes in epidemic areas ######
+######The manual of generating the plots in the paper ######
 
-"Determining travel fluxes in epidemic areas" by Daipeng Chen, Yuyi Xue, Yanni Xiao (2021).
+"A multiscale model for HIV/AIDS infection with behavioral responses to risk perception" by Xiaodan Sun, Weike Zhou, Yanni Xiao (2022).
 
 The matlab code is edited under MATLAB R2021a.
 
-$"Data" document: It includes four datasets. 1. The New_cases is daily reported COVID-19 cases in all citites. 2. The Population_flow is the estimated mobility network among the cities using the gravity model (17). We recommend replacing it with real data if available. 3. The Growth_rate is the estimated value of parameters in formula (6) which gives the value of growth rate. 4. The Diffusion_distance is the calculation result of the code in "Diffusion_distance" document.
+$"between host" document: code titled  "between_only_period" is used for generating figure 2, describing the dynamic behaviors of the between host model; for figure 1, 3 and 4, you can modify the parameters of the "between_only_period.m" to generate corresponding plots; code titled "between_only_period_amplitude" is used for generating figure 5.
 
-$"Diffusion_distance" document: There is only one code used to calculate the diffusion distance among cities.
+$"between and within host" document: code titled  "within_between_effectofa_period" is used for generating figure 6, describing dynamic behaviors of the multiscale model; for figure 7 and 9, you can modify the parameters of the "within_between_effectofa_period.m" to generate corresponding plots; code titled "compare_a_oscillate" is used for generating figure 8.
 
-$"Time_location" document: There is one main function to solve the zero-one programming (9). Other function files are used to generate the growth rate and COVID-19 cases.
+$"controal measure" document: code titled "adherence_effect_fig13" is used for generating figure 13, studing of the effect of the control measures; for figure 10, 11 and 12, you can generate the corresponding plots similarly. 
 
-$"Travel_flux" document: The files in this document are mainly used to calculate the potential in each city and the travel flux among these cities.
 
-$"Testable_prediction" document: The files in this document are used to perform the prediction under different movement pattern.
-
-@Remark: After downloading the code, please modify the input file path (C:\Users\Daipeng1993\Desktop\Code\Data) to your own storage path. Some functions in different documents are common.
+@Remark: Feel free to contant me if you have any probles when running the codes.
