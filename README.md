@@ -11,4 +11,4 @@ $"between and within host" document: code titled  "within_between_effectofa_peri
 $"controal measure" document: code titled "adherence_effect_fig13" is used for generating figure 13, studying of the effect of the control measures; for figure 10, 11 and 12, you can generate the corresponding plots similarly. 
 
 
-@Remark: Feel free to contant me if you have any probles when running the codes.
+@Remark: Feel free to contact me if you have any problems when running the codes.
